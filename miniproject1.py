@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env1 python3
   
 # Seasons and Cities
 locations = ["Denver, CO", "Dallas, TX", "Seattle, WA", "Boston, MA"]
@@ -6,7 +6,7 @@ budget = [787, 1091, 1220, 1419]
 
 keep_going = True
 
-print("Please pick a 1-5 for a vacation recommendation.")
+print("Please pick a 1-4 for a vacation recommendation.")
 
 def calculate_budget(user_input):
     if (user_input == "1"):
