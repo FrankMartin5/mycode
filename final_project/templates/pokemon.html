@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+<body>
+    <form action = "{{ url_for('addpoke') }}" method = "POST">
+        <h3>Enter your pokemon</h3>
+        Name<br>
+        <input type="text" name="nm" /></br>
+        
+        Type<br>
+        <input type="text" name="typ" /><br>
+
+        Level<br>
+        <input type="number" name="lvl" /><br>
+
+        <input type="submit" value="submit" /><br>
+     </form>
+</body>
+</html>
